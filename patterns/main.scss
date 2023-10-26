@@ -1,0 +1,127 @@
+:root {
+  // - Texto
+
+  --blanco: #ffffff;
+  --azul: #0c2f40;
+  --negro: #252525;
+  
+  
+  // - Formas y líneas
+  
+  --verde: #3e8b77;
+  --gris: #f5f5f5;
+  --celeste: #76abd5;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url('../assets/fonts/Poppins-Regular.ttf') format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url('../assets/fonts/Poppins-Bold.ttf') format("opentype");
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url('../assets/fonts/Poppins-SemiBold.ttf') format("opentype");
+  font-weight: 600;
+
+}
+
+html, body {
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 20px;
+  color: var(--negro);
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.txt-body-sm {
+  font-size: 15px;
+}
+.txt-body-gd {
+  font-size: 25px;
+}
+.pd-0 {
+  padding: 0px;
+}
+.px-container {
+  padding: 0% 8% 0% 8%;
+}
+h1{
+  font-size: 45px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 25px;
+}
+h4{
+  font-size: 20px;
+}
+.txt-amarillo {
+  color: var(--amarillo);
+}
+.w-100 {
+  width: 100%;
+}
+.btn-cta {
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 50px;
+  color: var(--negro);
+  font-size: 20px;
+  border-radius: 9px;
+  text-align: center;
+  background-color: var(--amarillo);
+  border-width: 0px;
+  font-weight: 700;
+  &:hover {
+    background-color: var(--negro);
+    color: var(--blanco);
+  }
+}
+
+@import "header/_header";
+@import "sec1/_sec1";
+@import "sec2/_sec2";
+@import "sec3/_sec3";
+@import "sec4/_sec4";
+@import "sec5/_sec5";
+@import "footer/_footer";
+
+@media (max-width: 990px) and (min-width: 768px) {    }
+@media (max-width: 767px) and (min-width: 575px) {    }
+@media (max-width: 574px) and (min-width: 0px) {
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 18px;
+  }
+
+  .desktop-item {
+    display: none;
+  }
+  .mobile-item {
+    display: block;
+  }
+
+}
