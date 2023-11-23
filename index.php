@@ -16,7 +16,7 @@
 
     <!-- Title -->
     <title>
-    ForteOrigen LP
+      Nemo
     </title>
     
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -37,9 +37,9 @@
   <?php include_once('patterns/header/header.php'); ?>
   <?php include_once('patterns/sec1/sec1.php'); ?>
   <?php include_once('patterns/sec2/sec2.php'); ?>
+  <?php include('patterns/sec5/sec5.php'); ?> 
   <?php include_once('patterns/sec3/sec3.php'); ?>
   <?php include_once('patterns/sec4/sec4.php'); ?>
-  <?php include_once('patterns/sec5/sec5.php'); ?>
   <?php include_once('patterns/footer/footer.php'); ?>
 
 </body>

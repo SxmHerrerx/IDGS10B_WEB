@@ -8,30 +8,23 @@
 }
 
 @font-face {
-  font-family: "Poppins-Regular";
-  src: url("../assets/fonts/Poppins-Regular.ttf") format("opentype");
+  font-family: "Love";
+  src: url("../assets/fonts/Love.ttf") format("opentype");
   font-style: normal;
   font-weight: 400;
 }
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url("../assets/fonts/Poppins-Bold.ttf") format("opentype");
-  font-style: bold;
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Poppins-SemiBold";
-  src: url("../assets/fonts/Poppins-SemiBold.ttf") format("opentype");
-  font-weight: 600;
-}
 html, body {
-  font-family: "Poppins-Regular", sans-serif;
+  font-family: "Love", sans-serif;
   font-size: 20px;
   color: var(--negro);
   height: 100%;
   width: 100%;
   margin: 0px;
   padding: 0px;
+}
+
+.d-pad {
+  padding: 6% 0%;
 }
 
 .txt-body-sm {
@@ -51,19 +44,19 @@ html, body {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 60px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 40px;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .txt-amarillo {
@@ -85,13 +78,64 @@ h4 {
   font-size: 20px;
   border-radius: 9px;
   text-align: center;
-  background-color: var(--amarillo);
+  background-color: var(--blanco);
   border-width: 0px;
   font-weight: 700;
 }
 .btn-cta:hover {
   background-color: var(--negro);
   color: var(--blanco);
+}
+
+.sec1 {
+  background-image: url("../assets/img/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 12% 0%;
+  background-position: bottom;
+}
+.sec1 h1 {
+  font-size: 65px;
+}
+
+.sec2 img {
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 3px 16px -10px black;
+          box-shadow: 1px 3px 16px -10px black;
+}
+
+.sec4 .col-md-4 img {
+  height: 260px !important;
+}
+
+.sec5 {
+  background-image: url("../assets/img/1.PNG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3% 0%;
+}
+.sec5 h2 {
+  font-size: 30px;
+}
+.sec5 .btn-cta {
+  width: 35%;
+}
+
+.footer {
+  background-image: url("../assets/img/1.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.footer form {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 3%;
+}
+.footer form .btn-cta {
+  border: 2px solid black;
 }
 
 @media (max-width: 574px) and (min-width: 0px) {

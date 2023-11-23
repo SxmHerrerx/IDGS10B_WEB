@@ -16,7 +16,7 @@
 
     <!-- Title -->
     <title>
-
+        Nemo
     </title>
     
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -38,15 +38,15 @@
     <div class="container gracias">
         <div class="row mt-5">
             <div class="col-md-12 text-center">
-                <img src="assets/img/.png" class="logo" alt=" - Logotipo">
+                <img src="assets/img/Nemo.png" class="logo" alt="Nemo" style="box-shadow: 1px 3px 16px -10px black; border-radius: 20px;">
                 <h5 class="mt-5">
                     ¡Muchas <span>gracias</span> por contactarnos!
                 </h5>
                 <p class="mt-4 mb-4">
-                    Recibimos tus datos, en breve <br>
-                    un asesor se comunicará contigo.
+                We receive your data<br>
+                You are already participating :D !
                 </p>
-                <a class="btn-cta" href="index.php">IR A INICIO</a>
+                <a class="btn-cta" href="index.php" style="border: 2px solid black;">Home</a>
             </div>
         </div>
     </div>

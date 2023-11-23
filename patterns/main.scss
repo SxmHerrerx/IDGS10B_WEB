@@ -14,34 +14,37 @@
 }
 
 @font-face {
-  font-family: "Poppins-Regular";
-  src: url('../assets/fonts/Poppins-Regular.ttf') format("opentype");
+  font-family: "Love";
+  src: url('../assets/fonts/Love.ttf') format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url('../assets/fonts/Poppins-Bold.ttf') format("opentype");
-  font-style: bold;
-  font-weight: 700;
-}
+// @font-face {
+//   font-family: "Poppins-Bold";
+//   src: url('../assets/fonts/Poppins-Bold.ttf') format("opentype");
+//   font-style: bold;
+//   font-weight: 700;
+// }
 
-@font-face {
-  font-family: "Poppins-SemiBold";
-  src: url('../assets/fonts/Poppins-SemiBold.ttf') format("opentype");
-  font-weight: 600;
+// @font-face {
+//   font-family: "Poppins-SemiBold";
+//   src: url('../assets/fonts/Poppins-SemiBold.ttf') format("opentype");
+//   font-weight: 600;
 
-}
+// }
 
 html, body {
-  font-family: 'Poppins-Regular', sans-serif;
+  font-family: 'Love', sans-serif;
   font-size: 20px;
   color: var(--negro);
   height: 100%;
   width: 100%;
   margin: 0px;
   padding: 0px;
+}
+.d-pad {
+  padding: 6% 0%;
 }
 .txt-body-sm {
   font-size: 15px;
@@ -56,16 +59,16 @@ html, body {
   padding: 0% 8% 0% 8%;
 }
 h1{
-  font-size: 45px;
+  font-size: 60px;
 }
 h2{
-  font-size: 30px;
+  font-size: 50px;
 }
 h3{
-  font-size: 25px;
+  font-size: 40px;
 }
 h4{
-  font-size: 20px;
+  font-size: 35px;
 }
 .txt-amarillo {
   color: var(--amarillo);
@@ -84,7 +87,7 @@ h4{
   font-size: 20px;
   border-radius: 9px;
   text-align: center;
-  background-color: var(--amarillo);
+  background-color: var(--blanco);
   border-width: 0px;
   font-weight: 700;
   &:hover {
